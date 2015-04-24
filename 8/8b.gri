@@ -1,9 +1,9 @@
 open gri_test_case.nc netcdf
 set missing value 1.0e30
-set x size 10
-set y size 10
-set x margin 6
-set y margin 6
+set x size 3
+set y size 3
+set x margin 3
+set y margin 3
 set x axis unknown
 set y axis unknown
 set x name "lon"
@@ -18,10 +18,10 @@ convert grid to image
 draw image
 draw axes if needed
 draw image palette axisbottom box 6 18 16 18.7
-set x size 10
-set y size 10
-set x margin 20
-set y margin 6
+set x size 3
+set y size 3
+set x margin 10
+set y margin 3
 set x axis unknown
 set y axis unknown
 set x name "lon"
