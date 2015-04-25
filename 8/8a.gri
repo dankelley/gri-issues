@@ -3,5 +3,7 @@ set missing value 1.0e30
 read grid x = "lon"
 read grid y = "lat"
 read grid data = "rh"
-set image range automatic
-set image colorscale hsb 0.666 1 1 0.86 hsb 0 1 1 0.94 increment 0.01
+set image range from grid
+convert grid to image
+draw image
+
