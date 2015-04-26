@@ -4,8 +4,8 @@
 # TEST SETS
 # 'make all' tests everything
 # 'make current' tests the top-priority item
-dirs        =8
-current     =8
+dirs        =8 9
+current     =9
 
 all:
 	for dir in $(dirs) ; do cd $$dir ; make ; cd .. ; done
